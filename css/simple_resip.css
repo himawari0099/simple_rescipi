@@ -1,0 +1,240 @@
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  display: block;
+  width: 10%;
+  margin: 30px auto;
+}
+
+.resip_entair {
+  width: 100%;
+  height: 490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("../img/mainv_img.jpg") no-repeat;
+  background-size: cover;
+}
+
+.resip_entair .gakusei_resipi p {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+.resip_entair .gakusei_resipi a {
+  position: relative;
+  display: block;
+  margin: 30px auto;
+  width: 13%;
+  padding: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background: #fdaa07;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+          box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+}
+
+.resip_entair .about {
+  width: 100%;
+  height: 100%;
+  margin-top: 190px;
+}
+
+.resip_entair .about .company_txt {
+  text-align: center;
+  margin-top: -40px;
+  font-size: 26px;
+  margin-bottom: 90px;
+}
+
+.resip_entair .about .about_txt img {
+  display: block;
+  width: 5%;
+  margin: -70px auto;
+}
+
+.resip_entair .about .about_txt02 {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 16px;
+}
+
+.resip_entair .about .about_txt03 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.resip_entair .decoration {
+  width: 100%;
+}
+
+.resip_entair .decoration img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.resip_entair .three_point_entair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
+}
+
+.resip_entair .three_point_entair .gakusei_toukou h2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  font-size: 26px;
+}
+
+.resip_entair .three_point_entair .gakusei_toukou p {
+  margin-left: 90px;
+  font-size: 16px;
+}
+
+.resip_entair .three_point_entair02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+}
+
+.resip_entair .three_point_entair02 .gakusei_toukou02 h2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  font-size: 26px;
+}
+
+.resip_entair .three_point_entair02 .gakusei_toukou02 p {
+  margin-left: 90px;
+  font-size: 16px;
+}
+
+.resip_entair .three_point_entair02 .three_point02 img {
+  padding-left: 120px;
+}
+
+.gakusei_resipi {
+  padding: 90px;
+}
+
+.gakusei_resipi p {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.gakusei_resipi a {
+  position: relative;
+  display: block;
+  margin: 30px auto;
+  width: 13%;
+  padding: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  background: #fdaa07;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+          box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+}
+
+.decoration02 {
+  position: relative;
+}
+
+.decoration02 .deco {
+  position: absolute;
+  top: -340px;
+  left: 270px;
+  padding: 50px;
+}
+
+@media screen and (min-width: 1500px) {
+  .decoration02 {
+    position: relative;
+  }
+  .decoration02 .deco {
+    position: absolute;
+    top: -340px;
+    left: 490px;
+    padding: 50px;
+  }
+}
+
+.logo02 {
+  width: 100%;
+}
+
+.logo02 img {
+  display: block;
+  width: 20%;
+  margin: 70px auto;
+}
+
+.footer_flex_wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer_flex_wrap ul li {
+  margin-left: 50px;
+}
+
+.footer_flex_wrap ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}

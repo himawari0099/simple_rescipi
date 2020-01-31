@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+.swiper-slide {
+  cursor: pointer;
+}
+
+.sample03 .swiper-button-prev,
+.sample03 .swiper-button-next {
+  display: none;
+}

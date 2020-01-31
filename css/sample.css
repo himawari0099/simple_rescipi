@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+.sample {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+  .sample {
+    margin-top: 1990px;
+    padding: 20px;
+  }
+}
